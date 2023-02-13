@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+body {
+  font-family: "Poppins";
+  background-color: #fef2f2;
+}
+
+.navbar {
+  background-color: #ea5459 !important;
+}
+
+.nav-item {
+  margin-right: 29px;
+}
+
+.nav-item a {
+  color: #fff;
+}
+
+.nav-item a:hover {
+  font-weight: 500;
+  color: white;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.couples {
+  /* width: 1222px; */
+  max-width: 1222px;
+  background-color: #efdfdf;
+}
+
+img.couple {
+  border-radius: 50% !important;
+  width: 200px;
+}
+
+.couple ~ h4 {
+  font-size: 32px;
+  font-family: "Satisfy", cursive !important;
+}
+
+.couple ~ p {
+  color: #9a9a9a;
+}
+
+section.couples {
+  margin: auto;
+  transform: translateY(-130px);
+  box-shadow: 0 4px 15px rgb(0, 0, 0, 0.4);
+}
+
+.location h4,
+.contact h4,
+.map h4 {
+  color: #ee515a;
+}
+
+section.location {
+  margin-bottom: 90px;
+}
+
+.gallery img {
+  max-width: 100%;
+}
+
+.contact .container {
+  background-color: #efdfdf;
+}
+
+section.map {
+  background-color: #eedede;
+}
+
+footer {
+  background-color: #ea545d;
+}
+
+footer h2,
+footer p {
+  font-family: "Satisfy", cursive !important;
+}
+
+@media (min-width: 576px) {
+  .gallery img {
+    max-width: 300px;
+  }
+}
